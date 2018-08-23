@@ -1,4 +1,4 @@
-import "./application.css";
+import "init";
 
 /* eslint no-console:0 */
 // This file is automatically compiled by Webpack, along with any other files
@@ -10,5 +10,4 @@ import "./application.css";
 // layout file, like app/views/layouts/application.html.erb
 
 // webpack entry point
-
-document.body.insertAdjacentHTML("afterbegin", "Some stuff!");
+// use this file for imports only
