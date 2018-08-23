@@ -4,7 +4,8 @@
 
 * npm or yarn
 https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
-* Postgresql installed with a database named evil_chat_development
+* Postgresql installed with a database named **evil_chat_development**
+
 ⋅⋅⋅`psql`
 ⋅⋅⋅`create database evil_chat_development;`
 
