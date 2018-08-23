@@ -1,24 +1,35 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Prerequisites:
 
-Things you may want to cover:
+* npm or yarn
+https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
+* Postgresql installed with a database named evil_chat_development
+- `psql`
+- `create database evil_chat_development;`
 
-* Ruby version
+* Overmind
+https://github.com/DarthSim/overmind
+- lightweight alternative: https://github.com/DarthSim/hivemind
 
-* System dependencies
 
-* Configuration
+##Getting started:
 
-* Database creation
+To run: `overmind start` or `overmind s`
 
-* Database initialization
+##Linting:
 
-* How to run the test suite
+Precommit linting:
+https://www.npmjs.com/package/git-pre-commit
 
-* Services (job queues, cache servers, search engines, etc.)
+Lint-staged:
+https://github.com/okonet/lint-staged#configuration
 
-* Deployment instructions
+*Linting Rules:*
+eslint
+(air-bnb and prettier)
 
-* ...
+stylelint
+
+
+Configured in package.json to autorun as part of `git commit` for \*.js, \*.scss and \*.css files. The commit will be applied if the linting passes.
