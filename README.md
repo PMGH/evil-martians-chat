@@ -6,12 +6,13 @@
 https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
 * Postgresql installed with a database named **evil_chat_development**
 
-⋅⋅⋅`psql`
-⋅⋅⋅`create database evil_chat_development;`
+⋅⋅⋅`psql`⋅⋅
+⋅⋅⋅`create database evil_chat_development;`⋅⋅
 
 * Overmind
 https://github.com/DarthSim/overmind
-⋅⋅⋅Hivemind is a lightweight alternative: https://github.com/DarthSim/hivemind
+
+⋅⋅⋅Hivemind is a lightweight alternative: https://github.com/DarthSim/hivemind⋅⋅
 
 
 ## Getting started:
