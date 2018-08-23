@@ -1,3 +1,5 @@
+import "./application.css";
+
 /* eslint no-console:0 */
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in
@@ -9,8 +11,4 @@
 
 // webpack entry point
 
-console.log('Hello World from Webpacker')
-
-import './application.css';
-
-document.body.insertAdjacentHTML('afterbegin', 'Some stuff!');
+document.body.insertAdjacentHTML("afterbegin", "Some stuff!");
