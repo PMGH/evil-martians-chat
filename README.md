@@ -12,6 +12,8 @@ https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
 https://github.com/DarthSim/overmind
 - lightweight alternative: https://github.com/DarthSim/hivemind
 
+Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.
+
 
 ##Getting started:
 
