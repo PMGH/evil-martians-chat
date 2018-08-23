@@ -2,9 +2,46 @@
   "name": "evil_chat",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5"
+    "@rails/webpacker": "3.5",
+    "coffeescript": "1.12.7",
+    "normalize.css": "^7.0.0"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "prettier --write",
+        "eslint",
+        "git add"
+      ],
+      "*.scss": [
+        "prettier --write",
+        "stylelint --fix",
+        "git add"
+      ],
+      "*.css": [
+        "prettier --write",
+        "stylelint --fix",
+        "git add"
+      ]
+    }
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "git-pre-commit": "^2.1.4",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
+    "prettier": "^1.7.3",
+    "stylelint": "^8.1.1",
+    "stylelint-config-standard": "^17.0.0",
     "webpack-dev-server": "2.11.2"
   }
 }
