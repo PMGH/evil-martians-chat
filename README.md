@@ -3,14 +3,19 @@
 Follows a tutorial by EvilMartians.
 https://evilmartians.com/chronicles/evil-front-part-1
 
+---
 
-## Prerequisites:
+## Getting started:
+
+### Prerequisites:
 
 * npm or yarn
 https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
 * Postgresql installed with a database named **evil_chat_development**
 
-   `psql`  
+   ```sql
+   psql
+   ```  
    ```sql
    create database evil_chat_development;
    ```  
@@ -18,10 +23,10 @@ https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
 * Overmind
 https://github.com/DarthSim/overmind
 
-   Hivemind is a lightweight alternative: https://github.com/DarthSim/hivemind  
+   Note: Hivemind is a lightweight alternative: https://github.com/DarthSim/hivemind  
 
 
-## Getting started:
+### Run:
 
 *Ensure you have the Prerequisites above.*
 
@@ -29,7 +34,10 @@ https://github.com/DarthSim/overmind
 
 *Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.*
 
-## Linting:
+
+---
+
+## Precommit Linting:
 
 * Precommit linting:
 https://www.npmjs.com/package/git-pre-commit
@@ -45,9 +53,11 @@ Precommit and lint-staged are configured in package.json to autorun as part of `
 
 * stylelint
 
-## Prepush
+## Prepush Testing
 
 * Prepush testing:
 https://github.com/sturdynut/git-prepush-hook
 
 Prepush is configured in package.json to run `rails test` when `git push` is used.
+
+---
