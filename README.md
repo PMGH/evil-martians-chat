@@ -1,5 +1,9 @@
 # README
 
+Follows a tutorial by EvilMartians.
+https://evilmartians.com/chronicles/evil-front-part-1
+
+
 ## Prerequisites:
 
 * npm or yarn
