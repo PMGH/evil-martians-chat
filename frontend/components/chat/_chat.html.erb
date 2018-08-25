@@ -1,0 +1,12 @@
+<div class="chat">
+  <%# Render a list of chat messages %>
+  <div class="chat--messages">
+    <%# 'messages' is a local variable representing @messages (see chat_controller.rb) passed from  views/chat/show.html.erb %>
+    <%= c("messages", messages: messages) %>
+  </div>
+
+  <%# Render a chat form to add to the messages %>
+  <div class="chat--form">
+    <%= c("message-form") %>
+  </div>
+</div>
