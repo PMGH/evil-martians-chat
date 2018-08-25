@@ -11,7 +11,9 @@ https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
 * Postgresql installed with a database named **evil_chat_development**
 
    `psql`  
-   `create database evil_chat_development;`  
+   ```sql
+   create database evil_chat_development;
+   ```  
 
 * Overmind
 https://github.com/DarthSim/overmind
@@ -21,7 +23,9 @@ https://github.com/DarthSim/overmind
 
 ## Getting started:
 
-To run: `overmind start` or `overmind s`
+*Ensure you have the Prerequisites above.*
+
+**To run:** `overmind start` or `overmind s`
 
 *Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.*
 
@@ -40,3 +44,10 @@ Precommit and lint-staged are configured in package.json to autorun as part of `
 (air-bnb and prettier)
 
 * stylelint
+
+## Prepush
+
+* Prepush testing:
+https://github.com/sturdynut/git-prepush-hook
+
+Prepush is configured in package.json to run `rails test` when `git push` is used.
