@@ -8,7 +8,8 @@
     "normalize.css": "^7.0.0"
   },
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "rails test"
   },
   "prepush": [
     "test"
