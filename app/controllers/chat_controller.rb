@@ -4,7 +4,6 @@ class ChatController < ApplicationController
   # Display last 20 messages
   def show
     @messages = Message.order(created_at: :asc).last(20)
-    render status: 200, json: @messages
   end
 
   private
