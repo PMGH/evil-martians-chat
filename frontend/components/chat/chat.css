@@ -6,6 +6,15 @@
   height: 100%;
   overflow: hidden;
 
+  &--title {
+    background-color: #139A43;
+    display: flex;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding: 25px 6px;
+  }
+
   &--messages {
     width: 100%;
     flex: 1 0 0;
