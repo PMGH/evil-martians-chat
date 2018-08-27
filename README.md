@@ -7,6 +7,17 @@ The application is a Ruby on Rails real-time Chat application that uses ActionCa
 
 It uses a component-based structure (see frontend directory).
 
+![Login](public/login.png)
+
+![Chat](public/chat.png)
+
+
+## Where can I try it out?
+
+The application is currently available on Heroku at:
+https://evilchat-test.herokuapp.com/
+
+
 ---
 
 ## Getting started:
