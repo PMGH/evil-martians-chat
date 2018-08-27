@@ -1,5 +1,6 @@
 .message {
   margin: 12px 6px;
+  color: white;
 
   &:first-child {
     margin-top: 0;
@@ -14,7 +15,7 @@
   }
 
   &--time {
-    color: rgba(0, 0, 0, 0.5);
+    color: lightgrey;
     font-size: 12px;
   }
 

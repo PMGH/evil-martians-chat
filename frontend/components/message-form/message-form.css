@@ -1,3 +1,7 @@
+:root {
+  --main-color: #139a43;
+}
+
 .message-form {
   display: flex;
   width: 100%;
@@ -15,7 +19,7 @@
 
     &:hover,
     &:focus {
-      border: 1px solid #3f94f9;
+      border: 1px solid var(--main-color);
     }
   }
 
@@ -23,8 +27,8 @@
     flex: 0 1 auto;
     height: 100%;
     padding: 12px 48px;
-    background: #3f94f9;
-    border: 1px solid #3f94f9;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
     color: white;
     font-size: 18px;
     outline: none;
