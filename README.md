@@ -3,7 +3,7 @@
 Follows a tutorial by EvilMartians.
 https://evilmartians.com/chronicles/evil-front-part-1
 
-The application is a Ruby on Rails real-time Chat application that uses ActionCable (websockets) to broadcast messages to listeners.
+The application is a **Ruby on Rails** real-time Chat application that uses **ActionCable** (websockets) to broadcast messages to listeners.
 
 It uses a component-based structure (see frontend directory).
 
@@ -41,15 +41,14 @@ https://github.com/DarthSim/overmind
    Note: Hivemind is a lightweight alternative: https://github.com/DarthSim/hivemind  
 
 
-### Run:
 
-*Ensure you have the Prerequisites above.*
+### To run: `overmind s -f Procfile.dev`
 
-**To run:** `overmind s -f Procfile.dev`
+**Ensure you have the Prerequisites above.**
 
-*Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.dev*
+>Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.dev
 
-*Note: there are 2 Procfiles. One for Production `Procfile` and one for Development `Procfile.dev` environments. `Procfile.dev` includes the webpack-dev-server.*
+>Note: there are 2 Procfiles. One for Production `Procfile` and one for Development `Procfile.dev` environments. `Procfile.dev` includes the webpack-dev-server.*
 
 
 ---
@@ -62,7 +61,7 @@ https://www.npmjs.com/package/git-pre-commit
 * Lint-staged:
 https://github.com/okonet/lint-staged#configuration
 
-Precommit and lint-staged are configured in package.json to autorun as part of `git commit` for \*.js, \*.scss and \*.css files. The commit will be applied if the linting passes.
+>Precommit and lint-staged are configured in package.json to autorun as part of `git commit` for \*.js, \*.scss and \*.css files. The commit will be applied if the linting passes.
 
 ### Linting Rules:
 * eslint
@@ -75,6 +74,6 @@ Precommit and lint-staged are configured in package.json to autorun as part of `
 * Prepush testing:
 https://github.com/sturdynut/git-prepush-hook
 
-Prepush is configured in package.json to run `rails test` when `git push` is used.
+>Prepush is configured in package.json to run `rails test` when `git push` is used.
 
 ---
