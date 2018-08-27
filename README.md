@@ -3,6 +3,10 @@
 Follows a tutorial by EvilMartians.
 https://evilmartians.com/chronicles/evil-front-part-1
 
+The application is a Ruby on Rails real-time Chat application that uses ActionCable (websockets) to broadcast messages to listeners.
+
+It uses a component-based structure (see frontend directory).
+
 ---
 
 ## Getting started:
@@ -34,7 +38,7 @@ https://github.com/DarthSim/overmind
 
 *Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.dev*
 
-*Note: there are 2 Procfiles. One for Production `Procfile` and one for development `Procfile.dev`. `Procfile.dev` includes the webpack-dev-server.*
+*Note: there are 2 Procfiles. One for Production `Procfile` and one for Development `Procfile.dev` environments. `Procfile.dev` includes the webpack-dev-server.*
 
 
 ---
