@@ -1,5 +1,5 @@
 class AuthController < ApplicationController
-  before_action :only_for_anonymous # check if we know the user
+  before_action :only_for_anonymous, only: [:new, :create] # check if we know the user
 
   def new; end
 
@@ -12,7 +12,7 @@ class AuthController < ApplicationController
   # Clear cookie to logout
   # TODO: replace with a more secure authentication method (OAuth2.0 with OpenID Connect ?)
   def destroy
-    cookies.delete :username
+    session[:username] = false
     redirect_to login_path
   end
 
