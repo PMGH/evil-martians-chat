@@ -7,7 +7,7 @@
   overflow: hidden;
 
   &--title {
-    background-color: #139A43;
+    background-color: #139a43;
     display: flex;
     color: white;
     margin: 0;
@@ -24,5 +24,6 @@
     width: 100%;
     background: white;
     flex: 00 50px;
+    z-index: 1;
   }
 }

@@ -9,6 +9,13 @@ class AuthController < ApplicationController
     redirect_to root_path
   end
 
+  # Clear cookie to logout
+  # TODO: replace with a more secure authentication method (OAuth2.0 with OpenID Connect ?)
+  def destroy
+    cookies.delete :username
+    redirect_to login_path
+  end
+
   private
 
   # If a user had been to our chat before — send them straight to chat window

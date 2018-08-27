@@ -1,0 +1,19 @@
+.logout-form {
+  &--submit {
+    background-color: steelblue;
+    border: 1px solid steelblue;
+    color: white;
+    float: right;
+    font-weight: bold;
+    outline: none;
+    height: 100px;
+    width: 200px;
+    transition: opacity 150ms;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      opacity: 0.7;
+    }
+  }
+}
