@@ -30,9 +30,11 @@ https://github.com/DarthSim/overmind
 
 *Ensure you have the Prerequisites above.*
 
-**To run:** `overmind start` or `overmind s`
+**To run:** `overmind s -f Procfile.dev`
 
-*Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.*
+*Overmind (process manager) is used to run the dev server and webpack-dev-server. It is configurable through the Procfile.dev*
+
+*Note: there are 2 Procfiles. One for Production `Procfile` and one for development `Procfile.dev`. `Procfile.dev` includes the webpack-dev-server.*
 
 
 ---
